@@ -1,0 +1,33 @@
+public class Main
+{
+	public static void main(String[] args) {
+	    sport s1=new running_race();
+	    sport s2=new volley_ball();
+	    sport s3=new chess();
+	    s1.play();
+	    s2.play();
+	    s3.play();
+	}
+}
+interface sport{
+    void play();
+}
+class running_race implements sport{
+    public void play()
+    {
+        System.out.println("players ready for runningrace");
+
+    }
+}
+class volley_ball implements sport{
+    public void play()
+    {
+        System.out.println("players ready for volleyball");
+    }
+}
+class chess implements sport{
+    public void play()
+    {
+        System.out.println("players ready for chess");
+    }
+}

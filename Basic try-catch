@@ -1,0 +1,16 @@
+public class Main
+{
+	public static void main(String[] args) {
+	    try{
+	        int a=10/0;
+	        System.out.println("a");
+	       
+	    }
+	    catch (ArithmeticException prithi)
+	    {
+	        System.out.println("cannot divided by zero");
+	    }
+		
+	}
+}
+

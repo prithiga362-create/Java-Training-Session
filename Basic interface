@@ -1,0 +1,15 @@
+public class Main
+{
+	public static void main(String[] args) {
+		sport s1=new cricket();
+		s1.play();
+	}
+}
+interface sport{
+    void play();
+} 
+class cricket implements sport{
+    public void play(){
+        System.out.println("batsman ready for to play");
+    }
+}

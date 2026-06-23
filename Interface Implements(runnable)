@@ -1,0 +1,13 @@
+public class Main
+{
+	public static void main(String[] args) {
+	    Thread t =new Thread(new task());
+	    t.start();
+	    System.out.println("main thread");
+	}
+}
+class task implements Runnable{
+    public void run(){
+        System.out.println("child thread");
+    }
+}

@@ -1,0 +1,14 @@
+public class Main
+{
+	public static void main(String[] args) {
+	    animal a=new animal(){
+	        public void sound(){
+	            System.out.println("anonymous animal");
+	        }
+	    };
+	    a.sound();
+	}
+}
+interface animal{
+    void sound();
+}

@@ -1,0 +1,11 @@
+public class Main
+{
+	public static void main(String[] args) {
+	    System.out.println(college.FEES);
+		
+	}
+}
+interface college{
+    int FEES=50000;
+}
+s

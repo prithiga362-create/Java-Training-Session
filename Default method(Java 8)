@@ -1,0 +1,19 @@
+public class Main
+{
+	public static void main(String[] args) {
+	    car c=new car();
+	    c.start();
+	    c.fueltype();
+	}
+}
+interface vehicle{
+    void start();
+    default void fueltype(){
+    System.out.println("petrol");
+}
+}
+class car implements vehicle{
+    public void start(){
+        System.out.println("car started");
+    }
+}

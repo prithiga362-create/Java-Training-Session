@@ -1,0 +1,20 @@
+public class Main
+{
+	public static void main(String[] args) {
+	AIDSB b =new AIDSB();
+	b.get();
+	b.give();
+	}
+}
+class AIDSA
+{
+    void give(){
+        System.out.println("duster");
+    }
+}
+class AIDSB extends AIDSA
+{
+    void get(){
+        System.out.println("chalk");
+    }
+}

@@ -1,0 +1,23 @@
+public class Main
+{
+	public static void main(String[] args) {
+	animal a=new animal();
+	a.sound();
+	a.play();
+	}
+}
+interface dog{
+    void sound();
+
+}
+interface cat{
+    void play();
+}
+class animal implements dog,cat{
+    public void sound(){
+        System.out.println("dog barks");
+    }public void play(){
+        System.out.println("cat is paying");
+    }
+    
+} 

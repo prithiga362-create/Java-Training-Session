@@ -1,0 +1,23 @@
+public class Main
+{
+	public static void main(String[] args) {
+	   BMW a=new BMW();
+	   a.start();
+	   a.drive();
+	   
+	}
+}
+interface vehicle{
+    void start();
+}
+interface car extends vehicle{
+    void drive();
+}
+class BMW implements car{
+    public void start(){
+        System.out.println("car started");
+    }
+    public void drive(){
+        System.out.println("car driving");
+    }
+}

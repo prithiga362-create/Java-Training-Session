@@ -1,0 +1,13 @@
+import java.util.ArrayList;
+import java.util.List;
+public class Main
+{
+	public static void main(String[] args) {
+	   int a[]=new a[5];
+	    object a[]=w object[5];
+	    ArrayList<Object> al=new ArrayList();
+	    al.add(1, "python");
+	    al.add(2,"prithi");
+	    System.out.println(al);
+	}
+}

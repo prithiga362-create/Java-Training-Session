@@ -1,0 +1,35 @@
+import java.util.Scanner;
+public class Main
+{
+    
+	public static void main(String[] args) {
+	    student o[] =new student[5];
+	    for(int i=1;i<=5;i++){
+	     o[i] =new student();
+         o[i].input();
+ 	     o[i].cal();
+		
+	}
+	}
+}
+	class student
+	{
+	    int m1,m2,m3,total,avg;
+        String name;
+	
+	void input(){
+	    Scanner s=new Scanner(System.in);
+	    m1=s.nextInt();
+	    m2=s.nextInt();
+	    m3=s.nextInt();
+	    name=s.next();
+
+	}
+	void cal()
+	{
+	    total=m1+m2+m3;
+	    avg=total/3;
+	    System.out.println("the result is" +avg);
+	}
+}
+    
