@@ -1,0 +1,29 @@
+import java.util.Scanner;
+public class Main
+{
+    int m1,m2,m3,total,avg;
+    String name;
+	public static void main(String[] args) {
+	    Main o[] =new Main[5];
+	    for(int i=1;i<=5;i++){
+	     o[i] =new Main();
+         o[i].input();
+ 	     o[i].cal();
+		
+	}
+	}
+	void input(){
+	    Scanner s=new Scanner(System.in);
+	    m1=s.nextInt();
+	    m2=s.nextInt();
+	    m3=s.nextInt();
+	    name=s.next();
+
+	}
+	void cal()
+	{
+	    total=m1+m2+m3;
+	    avg=total/3;
+	    System.out.println("the result is" +avg);
+	}
+}
